@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(to right, #93edc7, #1cd8d2);
+  color: black;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#main {
+  max-width: 1158px;
+  margin: 0 auto;
+}
+
+#title {
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 16px;
+}
+
+#text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0.9;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+#img-div {
+  background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 70px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto 20px;
+}
+
+#img-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#tribute-info {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#tribute-list {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0 auto 50px;
+}
+
+#tribute-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  padding: 15px;
+  border-radius: 50px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+#tribute-link {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  background-color: #1cd8d2;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 32px;
+  max-width: 340px;
+  display: block;
+  margin: 0 auto 50px auto;
+}
+
+#tribute-link:hover,
+#tribute-link:focus {
+  border: none;
+  background-color: bisque;
+}
